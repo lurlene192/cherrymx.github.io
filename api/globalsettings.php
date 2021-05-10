@@ -1,0 +1,11 @@
+<?php
+date_default_timezone_set('Europe/Kiev'); //т.к. не на всех хостингах мы имеем доступ к настройкам php, мы будем задавать текущий timezone таким способом
+
+$RSAprivateKey = "<RSAKeyValue><Modulus>wM66BllkSK8dqr6muXkNpu/lwpaEXa/W2SnXUU/cnWawl3OmLKYNXPS+LdDMbsRhgGdpEjrkUxd1S9uDPv7fG7wNUniFvwORHzZG1749n5yCclhXtXi/wP4/IV3Qk64WZxOpeL/LsSe5U4etpGDY+NEmpzU36tIqxgkjTp3vggp0X8pqqKncDmvkrCEmCyyaoqa6VLIc1sVn5M0OOGyp4eJAp7xJU9m0Yv0Qqxgu9iMIH8tjvpWDjtV5YQKYOox+Qn8YkswAfV43D6AZlSijwulPplVAfG9EojXdIz8M2MmleJawVkV+DFx7l3BzGWxHSJMImgYDxjpdoEyjOQWcnw==</Modulus><Exponent>AQAB</Exponent><P>w4nnVzCT5Xa6SbfeDYcKhw6XLz2Z//Vy5QP6BCKvyhH6/EGCNxLQ/ZhXuin0/8JoCR6WaKm2K4yzsIyUioXYgJDRmo5IC43t6IP8M55g4/litch0XqLShLJLVh4HHafnZbqllqwAJpWPqYv/zjQC5CKGqqE5FOzXsAjyFmx/K9s=</P><Q>/Gyif9qc4a6MLDxQ6bGHJr9MhUkx/4ZxnfbaL4/jTDsmhz2LlzgiWzjU+sV8RjI579QhXwWYs4gXv0Bk1ZmgbcCWXuUfkI82SqMc14qJfnYfBGSKn2rYyQw+2UruG7CBPzXsYFcE52iQXUnvhA1tn2kk1wqgd/oSLbJDAuHr740=</Q><DP>D0RsMK2VTpxHjUvy5YF+u+7StRiNNqP2dZUq5znCGffvbdS7kwtAEBzd9KYj//gw4U1nFwLxO1NAEG/ZhTtQHTGxe+zSCTzqr3Xmsi0SiZpGL8VX+K+j2kKFiVLM4W7jrVi2Zx5E4L5aujU5IuOCukdL1nTCHTUk3hTEuiV8hHM=</DP><DQ>Q2pED/9zzLZQS3Qka/V00f1fU22UA9mFOJn39aHpI6/cf1wJju54BoLsJrldkmXRoWK3MuiMus4LAZISHBX2iblYr6ljv7jv2AkuJ8ahJ/wmFoc/monvseoqUuA3LX/7VMVzBtvWvHLps3COnmbzsxJiu2fkKYbJGhk02m06FPU=</DQ><InverseQ>LvWtNi6MKfiZ6qWwEruaRqeqFIlThdvH2MFvr99yJQC7fKBMwUDs3VxMd0FzQobzYDr8KemXJGZHv7nQqdqyhaH2KQV7thre9d1GGc+xN+7dzcnDjQ4JlxOQxPu/uxtO1dKA7d2wy3Bb1yqhgZXUt+zZAiJ0l+k5R3Ux7XDXPUQ=</InverseQ><D>TSluoWPdEomioday+r9Li2eu1/VM/AGHRlnMZipD7GpQegw6kNvTtUPtaICLkDjfnHfGQRl4jxhwRO+Q0wFFYOAdpMe/HvbaeVdLesQT/XCxc/mPAH1WoHIf6caV1sRxCsd/p2d6qWdwb9F42LQ5oTpy8bAGtN9vZtn5W1kxpSS+rvC9IuR2TehBKzStMHP4HB4AkKprTRd8BXcmXTL6MSoBiepqKuGl+/EbBTqDParc2/lhF2v6Hy0tMCWQYqWtkZrjRbjzwt70+XYze3ZexnZKB8lRxOqAQBVQ7aDmGBa6E7VwRbUgI1Jml5qJ/mYvq8Ys5dy9phmdVZ3aAB3dYQ==</D></RSAKeyValue>"; //Тут мы храним приват ключ RSA
+
+$MySQL_hostname = "localhost"; //Адрес сервера MySQL
+$MySQL_username = "имя бд"; //Имя пользователя MySQL
+$MySQL_password = "пароль от бд"; //Пароль для пользователя MySQL
+$MySQL_databasename = "имя бд"; //База данных MySQL
+$MySQL_table = "users"; //Таблица MySQL
+?>
